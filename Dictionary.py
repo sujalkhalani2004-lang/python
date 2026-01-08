@@ -22,4 +22,3 @@ studnet = {
 studnet["name"] = "sk",
 studnet["surname"] = "khalani"
 print(studnet)
-
