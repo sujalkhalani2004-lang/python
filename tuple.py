@@ -34,6 +34,6 @@
 # tup = ("c","d","a","a","b","b","a")
 # print(tup.count("a"))
 
-list=["c","d","a","a","b","b","a"]
-list.sort()
-print(list)
+# list=["c","d","a","a","b","b","a"]
+# list.sort()
+# print(list)
