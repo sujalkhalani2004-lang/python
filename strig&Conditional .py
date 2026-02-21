@@ -1,57 +1,57 @@
 # string function 
 
-# endwith
+# # endwith
 # str1 = "hello my name is sujal hello"
-# print(str1.endswith("is"))
+# print(str1.endswith("hello"))
 
-# # capitalize
+# # # capitalize
 # print(str1.capitalize())
 # print(str1)
 
-# # replace 
+# # # replace 
 # print(str1.replace("a","A"))
 
-# #find 
+# # #find 
 # print(str1.find("a"))
 
-# # count
+# # # count
 # print(str1.count("hello"))
 
 # exersice
 
 # input name and chack len
-# Name = input("Enter your name:")
-# print("Your name len is :",len(Name))
+Name = input("Enter your name:")
+print("Your name len is :",len(Name))
 
 # count a word in sentence
 
-# Name = "this is my name is sujal and i willl work in microsoft compny than 5 lakh per month sallry"
-# print(Name.count("i"))
+Name = "this is my name is sujal and i willl work in microsoft compny than 5 lakh per month sallry"
+print(Name.count("i"))
 
 # student mark give gread
-# marks =int( input("Enter marks:") )
+marks =int( input("Enter marks:") )
 
-# if(marks >=90):
-#     gread = "A"
-# elif(marks >= 80 and marks < 90):
-#     gread = "B"
-# elif(marks >= 70 and marks < 80):
-#     gread = "C"
-# else:
-#     gread = "D"
+if(marks >=90):
+    gread = "A"
+elif(marks >= 80 and marks < 90):
+    gread = "B"
+elif(marks >= 70 and marks < 80):
+    gread = "C"
+else:
+    gread = "D"
 
-# print("The gread is a",gread)
+print("The gread is a",gread)
 
 # trafic light
-# light = input("Enter light:")
-# if(light == "Green"):
-#     print("Go Go")
-# elif(light == "red"):
-#     print("Stop")
-# elif(light == "yellow"):
-#     print("Wornig")
-# else:
-#     print("wrong light re-enter light")
+light = input("Enter light:")
+if(light == "Green"):
+    print("Go Go")
+elif(light == "red"):
+    print("Stop")
+elif(light == "yellow"):
+    print("Wornig")
+else:
+    print("wrong light re-enter light")
 
 # user input odd ya even
 # n= int(input("enter number:"))
